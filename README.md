@@ -1,4 +1,4 @@
-# Cyber Threat Detection — Phase 1 (macOS)
+# Cyber Threat Detection
 
 This starter implements **four-class URL classification** using numeric lexical URL features and a Random Forest. It accepts `url` and `type` from Kaggle's `sid321axn/malicious-urls-dataset`, where `type` is one of `benign`, `phishing`, `malware`, or `defacement`.
 
