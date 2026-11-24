@@ -1,0 +1,44 @@
+{
+  "classification_report": {
+    "benign": {
+      "precision": 0.8663324979114453,
+      "recall": 0.8641666666666666,
+      "f1-score": 0.8652482269503546,
+      "support": 1200.0
+    },
+    "defacement": {
+      "precision": 0.8836307214895268,
+      "recall": 0.9491666666666667,
+      "f1-score": 0.9152269987946967,
+      "support": 1200.0
+    },
+    "malware": {
+      "precision": 0.9776328052190121,
+      "recall": 0.8741666666666666,
+      "f1-score": 0.923009238891333,
+      "support": 1200.0
+    },
+    "phishing": {
+      "precision": 0.8203062046736502,
+      "recall": 0.8483333333333334,
+      "f1-score": 0.8340843916427694,
+      "support": 1200.0
+    },
+    "accuracy": 0.8839583333333333,
+    "macro avg": {
+      "precision": 0.8869755573234086,
+      "recall": 0.8839583333333334,
+      "f1-score": 0.8843922140697884,
+      "support": 4800.0
+    },
+    "weighted avg": {
+      "precision": 0.8869755573234085,
+      "recall": 0.8839583333333333,
+      "f1-score": 0.8843922140697884,
+      "support": 4800.0
+    }
+  },
+  "training_rows": 19200,
+  "test_rows": 4800,
+  "dataset": "/Users/adrikghosh/CyberThreatDetectionStarter/data/raw/malicious_phish.csv"
+}
